@@ -1,23 +1,30 @@
+/* @font-face {font-family:'custom';src: url('fontes/Poppins-Light.ttf')}; */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+   box-sizing: border-box;
+    
+ 
 }
+html{
+    scroll-behavior: smooth;
+ }
 .container-global{
     width: 100%;
-    height: 100vh;
     background-image: url(./imagens/bg.jpg);
-    background-position: center 0;
-    background-size: 118%;
+    background-position: 63% 0;
+    background-repeat: no-repeat;
 }
 .container{
     padding-top: 45px;
-
+    padding-bottom: 45px;
     max-width: 1183px;
-   
     margin: 0 auto;
 }
 .header{
@@ -42,3 +49,146 @@
     background-color: #33c;
     border-color: #33c;
 }
+.row{
+
+}
+.titulo{
+    margin-top: 115px;
+    font-size: 54px;
+    font-weight: 700;
+    color: #2b2f3e;
+}
+.paragrafo{
+  font-family: 'custom';
+    margin-top: 25px;
+    width: 41.66666667%;
+    color: #737c85;
+}
+.row2{
+    margin-top: 50px;
+}
+.tipo-botao2{
+background-color: #33c;
+color: white;
+padding: 15px 25px;
+transition: all 0.2s;
+}
+.tipo-botao2:hover{
+    transition: all 0.2s;
+    background-color: #33adff;
+}
+.tipo-link{
+    height: 60px;
+    text-decoration: underline;
+    color: black;
+    margin: 0 25px;
+    padding: 0 25px;
+    
+}
+.tipo-link:hover{
+color: #33c;
+}
+.seta{
+    margin-left: 5px;
+}
+.row3{
+    margin-top: 100px;
+}
+.bolinha{
+    width: 45px;
+    height: 45px;
+    display: block;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    border-radius: 45px;
+    text-align: center;
+    line-height: 41px;
+    color: #fff;
+    background-color: #33c;
+    border: 2px solid #33c;
+    margin: 0 auto;
+}
+.container2{
+    padding: 80px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container2 h2 {
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    color: #737c85;
+}
+.container2 .parceiro{
+    text-align: center;
+}
+
+.container2 .parceiro img {
+    opacity: 0.5;
+}
+.container2 .parceiro img:hover {
+    opacity: 1;
+}
+.container-global2{
+    width: 100%;
+    background-color: #f2f3f7;
+}
+.sessao{
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.sessao h2{
+    text-align: center;
+    font-size: 34px;
+    
+}
+.sessao p{
+    margin: 20px 0;
+    font-size: 20px;
+    color: #737c85;
+    text-align: center;
+}
+.row5{
+    max-width: 1183px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card{
+    padding: 0 10px;
+    width: 33%;
+    min-width: 33%;
+}
+.conteudo-card{
+    padding: 30px 20px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.conteudo-card h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.conteudo-card p{
+    font-size: 16px;
+    margin: 15px 0 0;
+    color: #737c85;
+    line-height: 30px;
+    font-weight: 296;
+}
+.icone{
+    font-size:48px;
+    color:#33c;
+ }
